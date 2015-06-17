@@ -1,0 +1,12 @@
+Package: webuse
+Version: 0.1
+Date: 2015-06-17
+Title: Import Stata 'webuse' Datasets
+Authors@R: c(person("Thomas J.", "Leeper", 
+                    role = c("aut", "cre"), 
+                    email = "thosjleeper@gmail.com"))
+Description: A Stata-style `webuse()` function for importing named datasets from Stata's online collection.
+Imports: rio
+License: MIT + file LICENSE
+URL: https://github.com/leeper/arco
+BugReports: https://github.com/leeper/arco/issues
