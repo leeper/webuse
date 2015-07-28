@@ -1,0 +1,42 @@
+# Import Stata 'webuse' Datasets #
+
+This package provides a Stata-style `webuse()` function for importing named datasets from Stata's online collection.
+
+## Package Installation ##
+
+This package can be installed from R using `install.packages("webuse")` or from GitHub using **devtools**:
+
+```R
+if(!require("devtools")){
+    install.packages("devtools")
+    library("devtools")
+}
+install_github("leeper/webuse")
+```
+
+[![Build Status](https://travis-ci.org/leeper/webuse.svg?branch=master)](https://travis-ci.org/leeper/webuse)
+[![CRAN Version](http://www.r-pkg.org/badges/version/webuse)](http://cran.r-project.org/package=webuse)
+![Downloads](http://cranlogs.r-pkg.org/badges/webuse)
+
+## Examples ##
+
+```{r, echo=FALSE, results='hide'}
+options(width = 100)
+```
+
+Functionality is simple. Load **webuse** and then access any online Stata dataset using the `webuse()` function. This will assign the named dataset to the `.GlobalEnv` (or another environment, if specified):
+
+```{r}
+library("webuse")
+webuse("auto")
+head(auto)
+
+webuse("uslifeexp")
+head(uslifeexp)
+```
+
+The `webuselist` object contains a list of "core" Stata datasets:
+
+```{r}
+str(webuselist)
+```
