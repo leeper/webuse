@@ -8,5 +8,5 @@ Authors@R: c(person("Thomas J.", "Leeper",
 Description: A Stata-style `webuse()` function for importing named datasets from Stata's online collection.
 Imports: rio
 License: MIT + file LICENSE
-URL: https://github.com/leeper/arco
-BugReports: https://github.com/leeper/arco/issues
+URL: https://github.com/leeper/webuse
+BugReports: https://github.com/leeper/webuse/issues
