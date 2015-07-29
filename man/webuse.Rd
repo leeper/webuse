@@ -19,9 +19,8 @@
 
 \code{webuselist} provides a named list of (some of) the datasets available. Use \code{names(webuselist)} to retrieve the datasets.
 }
-\value{The dataset, invisibly.}
+\value{A data.frame, invisibly.}
 \references{
-\href{http://www.stata.com/help.cgi?webuse}{Stata webuse manual}
 \href{http://www.stata.com/help.cgi?webuse}{Stata webuse manual}
 }
 \author{Thomas J. Leeper}
