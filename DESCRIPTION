@@ -7,6 +7,7 @@ Authors@R: c(person("Thomas J.", "Leeper",
                     email = "thosjleeper@gmail.com"))
 Description: A Stata-style `webuse()` function for importing named datasets from Stata's online collection.
 Imports: haven
+Suggests: testthat
 License: MIT + file LICENSE
 URL: https://github.com/leeper/webuse
 BugReports: https://github.com/leeper/webuse/issues
