@@ -1,2 +1,2 @@
-import(rio)
+importFrom(haven, read_dta)
 export(webuse, webuselist)

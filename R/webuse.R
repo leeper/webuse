@@ -28,7 +28,7 @@ webuselist <- list(
 )
  
 webuse <- function(data, version = 14, envir = parent.frame()) {
-    d <- import(paste0("http://www.stata-press.com/data/r",version,"/",data,".dta"))
+    d <- read_dta(paste0("http://www.stata-press.com/data/r",version,"/",data,".dta"))
     assign(data, d, envir = envir)
     invisible(d)
 }
