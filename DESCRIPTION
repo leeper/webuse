@@ -2,9 +2,11 @@ Package: webuse
 Version: 0.1.2
 Date: 2015-07-29
 Title: Import Stata 'webuse' Datasets
-Authors@R: c(person("Thomas J.", "Leeper", 
+Authors@R: c(person("Thomas J.", "Leeper",
                     role = c("aut", "cre"), 
-                    email = "thosjleeper@gmail.com"))
+                    email = "thosjleeper@gmail.com",
+                    comment = c(ORCID = "0000-0003-4097-6326"))
+             )
 Description: A Stata-style `webuse()` function for importing named datasets from Stata's online collection.
 Imports: haven
 Suggests: testthat
