@@ -1,6 +1,6 @@
 Package: webuse
-Version: 0.1.2
-Date: 2015-07-29
+Version: 0.1.3
+Date: 2018-04-22
 Title: Import Stata 'webuse' Datasets
 Authors@R: c(person("Thomas J.", "Leeper",
                     role = c("aut", "cre"), 

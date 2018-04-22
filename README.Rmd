@@ -1,24 +1,23 @@
-# Import Stata 'webuse' Datasets #
+# Import Stata 'webuse' Datasets
 
 This package provides a Stata-style `webuse()` function for importing named datasets from Stata's online collection.
 
-## Package Installation ##
+## Package Installation
 
-This package can be installed from R using `install.packages("webuse")` or from GitHub using **devtools**:
+This package can be installed from R using `install.packages("webuse")` or from GitHub using **remotes**:
 
 ```R
-if(!require("devtools")){
-    install.packages("devtools")
-    library("devtools")
+if(!require("remotes")){
+    install.packages("remotes")
 }
-install_github("leeper/webuse")
+remotes::install_github("leeper/webuse")
 ```
 
 [![Build Status](https://travis-ci.org/leeper/webuse.svg?branch=master)](https://travis-ci.org/leeper/webuse)
 [![CRAN Version](http://www.r-pkg.org/badges/version/webuse)](http://cran.r-project.org/package=webuse)
 ![Downloads](http://cranlogs.r-pkg.org/badges/webuse)
 
-## Examples ##
+## Code Examples
 
 ```{r, echo=FALSE, results='hide'}
 options(width = 100)
