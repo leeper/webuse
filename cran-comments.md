@@ -17,4 +17,4 @@ New maintainer:
 Old maintainer(s):
   Thomas J. Leeper <thosjleeper@gmail.com>
   
-  This is correct as Jodi is taking over maintenance of the package, and the contact informnation is correct.
+This is correct as Jodi is taking over maintenance of the package, and the contact informnation is correct.
