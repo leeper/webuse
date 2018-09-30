@@ -30,7 +30,13 @@ webuse("auto")
 head(auto)
 ```
 
-As an option, you can specify the Stata version of the dataset and the environment via version and envir parameters (i.e. webuse(data, version, envir)).
+As an option, you can specify the Stata version of the dataset and the environment via version and envir parameters:
+
+```r
+library("webuse")
+webuse("auto", version = 15, envir = parent.frame())
+head(auto)
+```
 
 ```
 ## # A tibble: 6 x 12
