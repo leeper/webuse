@@ -1,6 +1,8 @@
 # webuse 0.1.3
 
 * Modified tests.
+* Changed to https protocol to avoid errors.
+* Updated default Stata version to 15.
 
 # webuse 0.1.2
 
