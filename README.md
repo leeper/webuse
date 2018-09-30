@@ -21,7 +21,7 @@ remotes::install_github("leeper/webuse")
 
 
 
-Functionality is simple. Load **webuse** and then access any online Stata dataset using the `webuse()` function. This will assign the named dataset to the `.GlobalEnv` (or another environment, if specified):
+Functionality is simple. Load **webuse** and then access any online Stata dataset using the `webuse()` function. This will assign the named dataset from Stata 15 to the `.GlobalEnv`:
 
 
 ```r
@@ -29,6 +29,8 @@ library("webuse")
 webuse("auto")
 head(auto)
 ```
+
+As an option, you can specify the Stata version of the dataset and the environment via version and envir parameters (i.e. webuse(data, version, envir)).
 
 ```
 ## # A tibble: 6 x 12
