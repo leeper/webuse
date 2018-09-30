@@ -5,7 +5,7 @@
 \title{webuse}
 \description{Import Stata \sQuote{webuse} Datasets}
 \usage{
-    webuse(data, version = 14, envir = parent.frame())
+    webuse(data, version = 15, envir = parent.frame())
     
     webuselist
 }
