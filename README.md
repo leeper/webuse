@@ -14,7 +14,7 @@ remotes::install_github("leeper/webuse")
 ```
 
 [![Build Status](https://travis-ci.org/leeper/webuse.svg?branch=master)](https://travis-ci.org/leeper/webuse)
-[![CRAN Version](https://www.r-pkg.org/badges/version/webuse)](https://cran.r-project.org/web/packages/webuse/)
+[![CRAN Version](https://www.r-pkg.org/badges/version/webuse)](https://CRAN.R-project.org/package=webuse)
 ![Downloads](https://cranlogs.r-pkg.org/badges/webuse)
 
 ## Code Examples
